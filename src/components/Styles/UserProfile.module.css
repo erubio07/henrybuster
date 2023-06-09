@@ -1,0 +1,137 @@
+.letras {
+    color: #333;
+    
+    margin-bottom: 10px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    font-size:medium;
+  }
+  
+  .letras2 {
+    color: #333;
+    font-size: medium;
+    font-weight: bold;
+    font-size: medium;
+    padding-bottom: 20px;
+  }
+  
+  .popup {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+
+    background-color: #7498b6;
+    height: 100vh;
+    width: 100%;
+    padding: 20px;
+    overflow: auto;
+   
+  }
+  
+  .campo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .campo input[type="text"],
+  .campo input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    font-size: 16px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border-radius: 20px;
+  }
+  
+  .campo input[type="text"]:focus,
+  .campo input[type="email"]:focus {
+    outline: none;
+    box-shadow: 0 0 3px #7498b6;
+    border-radius: 20px;
+  }
+  
+  .button {
+    background-color: #061c2d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: medium;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #56778f;
+  }
+  
+  .closeButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: medium;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #061c2d;
+  }
+  
+  .closeButton:hover {
+    background-color: #56778f;
+    
+  }
+  
+  .overlay {
+    position: relative;
+    z-index: 9999;
+    
+  }
+  
+  .container{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100%;
+    
+}
+
+.direccion{
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  margin: 5px 0;
+  width: 50vh;
+  text-align: left;
+  
+}
+.column {
+  flex-basis: 50%; 
+  padding: 10px; 
+  
+}
+
+.Columna2{
+  padding: 30px;
+
+}
+.titulo{
+  background-color: #7498b6;
+  overflow: auto;
+  width: 100%;
+  
+}
+
+.error{
+   max-width: 300px;
+}

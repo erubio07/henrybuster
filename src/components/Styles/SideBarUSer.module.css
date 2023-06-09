@@ -1,0 +1,20 @@
+.body {
+    background-color: white;
+  
+    width: 250px;
+    height: 100vh;
+  }
+  
+  .sub-category-block {
+    display: block;
+    text-align: left;
+  }
+  
+  .links {
+    color: inherit;  /* Hereda el color del texto */
+  text-decoration: none;  /* Sin subrayado */
+  }
+  
+  .links:hover {
+    color: blue;
+  }

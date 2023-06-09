@@ -1,0 +1,98 @@
+.boton {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f8f9fa;
+  color: #000;
+  font-weight: bold;
+  border: 2px solid #000;
+  border-radius: 20px;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+  font-size: 20px;
+}
+
+.boton:hover {
+  background-color: #56778f;
+}
+
+.StripeElement {
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+/* Estilos para los mensajes de error */
+.StripeElement--invalid {
+  border-color: #ff3860;
+}
+
+/* Estilos para el icono del CardElement */
+.StripeElement__icon {
+  fill: #666;
+}
+
+.cardForm {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: #94b8d7;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  margin-left: 5px;
+  text-align: left;
+}
+
+.cardFormItem {
+  flex: 1 1 100%;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+  .cardFormItem {
+    flex-basis: calc(50% - 10px);
+    margin-right: 10px;
+    
+  }
+}
+
+.nameInput {
+  margin: 4px;
+  margin-right: 10px;
+
+  
+  
+}
+
+.etiqueta{
+  margin: 5px;
+}
+
+.cardInfo{
+  background-color: #f8f9fa;
+  height: 50px;
+  border-radius: 5px;
+  margin: 5px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.etiqueta1{
+  font-size: x-large;
+  text-align: center;
+}
+
+.encabezado{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.boton:disabled {
+  cursor: not-allowed;
+  background-color: #f8f9fa;
+  /* Agrega cualquier otro estilo que desees cuando el botón esté deshabilitado */
+}

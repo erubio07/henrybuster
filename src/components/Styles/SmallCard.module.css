@@ -1,0 +1,97 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 120px; /* Ancho fijo de la carta */
+    height: 230px; /* Altura se ajustará automáticamente según el contenido */
+    padding: 0.8em;
+    background: #f5f5f5;
+    position: relative;
+    overflow: visible;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    border-radius: 10px;
+    margin: 5px;
+  }
+  
+  .card_img {
+    width: 100%; /* La imagen ocupará todo el ancho de la carta */
+    height: 70%; /* Altura se ajustará automáticamente según la proporción original de la imagen */
+    border-radius: 0.5rem;
+    transition: 0.3s ease;
+    object-fit: contain; /* Asegura que la imagen se vea completa sin distorsionar su proporción */
+  }
+  
+  .card_info {
+    flex-grow: 1; /* Ocupa el espacio restante en la carta */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 0.8em;
+    border-bottom: 1px solid #9f9d9dd1;
+  }
+  
+  .card_footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5px;
+  }
+  
+  .text_title {
+    font-weight: 900;
+    font-size: 0.9em;
+    line-height: 1.2;
+    margin-bottom: 0.5em;
+  }
+  
+  .text_body {
+    font-size: 0.7em;
+    line-height: 1.2;
+    margin-bottom: 0.5em;
+  }
+  
+  .card_button i {
+    font-size: 1em; /* Ajusta el tamaño del ícono según tus necesidades */
+    height: "fit-content";
+    padding: 0.2em 0.5em;
+    border: none;
+  }
+ 
+
+  
+  
+  .buyButton {
+    border-radius: 3px;
+    border: none;
+    padding: 0.1em 0.1em;
+    font-size: 0.7em; /* Ajusta el tamaño del botón según tus necesidades */
+    background-color: #d76e7e;
+  }
+  
+  .addButton {
+    border-radius: 3px;
+    border: none;
+    padding: 0.1em 0.1em;
+    font-size: 0.7em; /* Ajusta el tamaño del botón según tus necesidades */
+    background-color: #a8d796;
+  }
+
+  .addButton:hover {
+    
+    background-color: #4e8937;
+  }
+
+  .buyButton:hover {
+  
+    background-color: #e3223f;
+  }
+
+  .buttonFav{
+    border: none;
+    background-color: none;
+  }
+  .buttonFav:hover{
+    border: solid 1px black;
+    
+  }

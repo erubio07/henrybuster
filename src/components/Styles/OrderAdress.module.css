@@ -1,0 +1,94 @@
+.letras {
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    font-size: x-large;
+  }
+
+  .letras2 {
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+    font-size: xx-large;
+    padding-bottom: 20px;
+ 
+  }
+
+  .popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #7498b6;
+    width: 700px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  }
+  
+  .campo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .campo input[type="text"],
+  .campo input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    font-size: 16px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border-radius: 20px;
+  }
+  
+  .campo input[type="text"]:focus,
+  .campo input[type="email"]:focus {
+    outline: none;
+    box-shadow: 0 0 3px #7498b6;
+    border-radius: 20px;
+  }
+  
+  .button {
+    background-color: #061c2d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #56778f;
+  }
+  
+  .closeButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #061c2d;
+  }
+  
+  .closeButton:hover {
+    background-color: #56778f;
+  }
+  
+  .overlay{
+    position: relative; 
+    z-index: 9999;
+  }

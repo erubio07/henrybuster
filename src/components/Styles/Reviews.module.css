@@ -1,0 +1,75 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 2px;
+    color: #fff;
+    font-size: 18px;
+    
+    width: 100%;
+    min-height: 650px;
+}
+
+.title{
+    
+    color: #fff;
+    
+}
+
+.containerBnt{
+  
+display: flex;
+justify-content: center;
+gap: 5px;
+}
+
+.btn{
+   
+    width: 80px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.btn:focus{
+    background-color: crimson;
+    color: #fff;
+}
+
+.btn:hover{
+    background-color: crimson;
+    color: #fff;
+}
+
+.EachReview {
+    padding-left:30px;
+    min-height: 650px;
+    width: 100%;
+}
+
+.Prueba{
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+.btn2{
+    
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+.btn2:hover{
+    background-color: crimson;
+    color: #fff;
+}
+
+.cursor{
+    cursor: pointer;
+}

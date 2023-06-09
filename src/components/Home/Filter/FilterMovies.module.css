@@ -1,0 +1,7 @@
+.body {
+  display: flex;
+  gap: 10px;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: 180px;
+}

@@ -1,0 +1,57 @@
+.itemDiv{
+    border-radius: 8px;
+    background-color: #365b77;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.itemImg {
+    max-height: 200px;
+    max-width: 200px;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.itemInfo {
+    display: flex;
+    flex-direction: column;
+    padding:10px;
+    width: 200px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+  }
+  
+
+.itemView{
+    display: flex;
+    flex-direction: row;
+}
+.subTotal {
+ 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+.itemCantidad{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 80px;
+       
+        padding-left: 5px;
+        padding-right: 5px;
+}
+
+.inputAmount{
+  width: 20px;
+}

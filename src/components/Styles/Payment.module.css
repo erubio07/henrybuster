@@ -1,0 +1,75 @@
+.test {
+    background-color: aliceblue;
+}
+.titulos1{
+    color: aliceblue;
+}
+.Principal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.boton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+    color: #000;
+    font-weight: bold;
+    border: 2px solid #000;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+    font-size: 20px;
+  }
+  
+  .boton:hover {
+    background-color: #56778f;
+  }
+  .Col1{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+   
+    align-items: center;
+    position: relative;
+    width: 40%;
+  }
+
+  .Col2{
+    width: 40%;
+  }
+  .imagecontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    margin-bottom: 30px; /* Añade este margen inferior para separar las imágenes del botón */
+  }
+  
+  .imagecontainer img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    transform: scale(1);
+    transition: transform 0.3s;
+  }
+  
+  .imagecontainer img:hover {
+    transform: scale(1.1);
+  }
+
+  
+  .adress{
+    background-color: aliceblue;
+    margin: 20px;
+    width: 100%;
+    border-radius: 10px;
+    text-align: left;
+    padding: 10px;
+  }
+

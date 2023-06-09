@@ -1,0 +1,113 @@
+.Wraper {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    flex-wrap: wrap;    
+    background-color: rgb(8, 15, 40);
+    color: #fff;
+    
+  
+  }
+  
+  .DatosPelis {
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    box-shadow: rgba(0, 0, 0, 0.448) 0px 3px 8px;
+    font-size: 18px;
+    
+  }
+  
+  .ImagenPelis {
+  
+    width: 50%;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+.text{
+    color: #fff;
+   
+}
+
+.strong{
+    font-size: 18px;
+    border-bottom: 1px solid grey;
+}
+
+.img{
+    overflow: hidden;
+    height: 400px;
+    margin-bottom: 10px;
+    border-radius:10px;
+}
+  
+  .InfoPelis {
+    width: 50%;
+    color: #373742;
+    text-align: left;
+    margin-top: 5%;
+    
+  }
+  
+  .Reviews {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  
+  min-height: 850px;
+  }
+
+  .containerBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .btn {
+    font-weight: 600;
+    text-decoration: none;
+    color: #090909;
+    padding: 0.7em 1.7em;
+    font-size: 18px;
+    border-radius: 0.5em;
+    background: #e8e8e8;
+    border: 1px solid #e8e8e8;
+    transition: all .3s;
+    box-shadow: 1px 1px 4px #c5c5c5,
+    -1px -1px 4px #ffffff;
+}
+
+   .btn:active {
+       color: #666;
+    box-shadow: inset 4px 4px 12px #c5c5c5,
+                inset -4px -4px 12px #ffffff;
+   }
+   
+   .btn:hover{
+       color: crimson;
+       border: 1px solid crimson;
+   }
+
+   .containerBack{
+    margin-top: 10px;
+   }
+
+   .btnBack{
+    font-weight: 600;
+    text-decoration: none;
+    color: #090909;
+    padding: 0.7em 1.7em;
+    font-size: 18px;
+    border-radius: 0.5em;
+    background: #e8e8e8;
+    border: 1px solid #e8e8e8;
+    transition: all .3s;
+    box-shadow: 1px 1px 4px #c5c5c5,
+    -1px -1px 4px #ffffff;
+    width: 150px;
+   }

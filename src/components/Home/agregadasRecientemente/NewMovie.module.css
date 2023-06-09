@@ -1,0 +1,14 @@
+.title {
+  color: white;
+  margin-bottom: 30px;
+}
+
+.body {
+  display: grid;
+  grid-template-columns: repeat(4, 200px);
+  grid-template-rows: repeat(2, 510px);
+  justify-content: center;
+  gap: 8%;
+  margin-bottom: 50px;
+  margin-right: 70px;
+}
